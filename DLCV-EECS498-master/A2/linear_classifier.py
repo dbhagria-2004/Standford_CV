@@ -40,6 +40,9 @@ class LinearClassifier:
         train_args = (
             self.loss,
             self.W,
+
+
+            
             X_train,
             y_train,
             learning_rate,
