@@ -150,6 +150,10 @@ def nn_forward_pass(params: Dict[str, torch.Tensor], X: torch.Tensor):
     relu = lambda x: torch.maximum(x, torch.zeros_like(x))
     hidden = relu(torch.matmul(X, W1) + b1)
     scores = torch.matmul(hidden, W2) + b2
+
+    # relu = lambda x: torch.maximum(x, torch.zeros_like(x))
+    # hidden = relu(torch.matmul(X, W1) + b1)
+    # scores = torch.matmul(hidden, W2) + b2
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################

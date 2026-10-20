@@ -2,3 +2,10 @@ __pycache__/
 *.pth
 *.pt
 .DS*
+
+DLCV-EECS498-master/A1/cifar-10-batches-py/
+
+DLCV-EECS498-master/A2/cifar-10-batches-py/
+
+*.tar
+*.gz
